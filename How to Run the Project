@@ -1,0 +1,22 @@
+Hardware Setup
+Connect the DS18B20, TDS, pH, and Turbidity sensors to the ESP32 as per the connection table.
+Connect the 20x4 I2C LCD to ESP32 (SDA → 21, SCL → 22).
+Connect the push button to GPIO 25 and GND.
+Power the ESP32 via USB cable or regulated 5V supply.
+
+Software Setup
+Install Arduino IDE (latest version).
+Install required libraries via Library Manager:
+OneWire
+DallasTemperature
+LiquidCrystal_I2C
+Open the water_quality_monitoring.ino file in Arduino IDE.
+
+Upload Code
+Select Board: ESP32 Dev Module.
+Select Port connected to ESP32.
+Click Upload.
+Run & Monitor
+Once uploaded, LCD will display real-time sensor readings.
+Press the push button to cycle between different screens (temperature & TDS, pH & turbidity, summary).
+Optionally, integrate with ThingSpeak / Blynk / Firebase for cloud monitoring.
