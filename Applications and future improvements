@@ -1,0 +1,16 @@
+This system can be used in multiple scenarios:
+Household & Institutional Water Tanks: Monitor drinking water quality in real time.
+Industrial Water Systems: Track water quality in manufacturing or treatment plants.
+Environmental Monitoring: Measure water quality in rivers, lakes, and ponds
+Portable Water Testing: Low-cost IoT solution for field testing in rural or remote areas.
+Research & Educational Projects: Learn IoT, sensor interfacing, and water quality analysis.
+
+
+
+Future Improvements
+Cloud & Mobile Integration: Real-time alerts via Blynk, ThingSpeak, or Firebase mobile app.
+Data Logging: Store historical sensor data on SD card or cloud for trend analysis.
+Automatic Filtration Control: Link the system to a pump or filter for automatic water purification based on safety status.
+Improved Sensor Calibration: Use advanced calibration for higher accuracy.
+Web Dashboard: Create a web interface to visualize readings with graphs and notifications.
+Additional Sensors: Include ORP (Oxidation-Reduction Potential), conductivity, or chlorine sensors for more comprehensive water testing.
