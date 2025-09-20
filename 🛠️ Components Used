@@ -1,0 +1,37 @@
+🔹 Microcontroller & Display
+
+ESP32 Development Board (with Wi-Fi & Bluetooth)
+
+20x4 I2C LCD Display (with I2C backpack module for easy connection)
+
+🔹 Sensors
+
+DS18B20 Waterproof Digital Temperature Sensor (with 4.7kΩ pull-up resistor)
+
+TDS Sensor Module (Total Dissolved Solids)
+
+pH Sensor Module (with BNC probe and signal conditioning board)
+
+Turbidity Sensor Module
+
+🔹 Input/Control
+
+Push Button (for switching between screens)
+
+10kΩ Resistor (if required for pull-down, though ESP32 internal pull-up is used in code)
+
+🔹 Power & Supporting
+
+Breadboard / PCB (for prototyping connections)
+
+Jumper Wires (Male-to-Male, Male-to-Female)
+
+USB Cable (for programming ESP32)
+
+Power Supply (ESP32 can be powered via USB 5V or external 5V regulated supply)
+
+📌 Optional (for Cloud Integration)
+
+Wi-Fi connectivity (built-in ESP32)
+
+Cloud platforms: Blynk, ThingSpeak, or Firebase
