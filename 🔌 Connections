@@ -1,0 +1,61 @@
+1. ESP32 ↔ DS18B20 (Temperature Sensor)
+
+DS18B20 Data → GPIO 4
+
+DS18B20 VCC → 3.3V
+
+DS18B20 GND → GND
+
+(Add a 4.7kΩ pull-up resistor between Data and VCC)
+
+2. ESP32 ↔ TDS Sensor
+
+TDS Sensor Analog Out → GPIO 34 (ADC pin)
+
+TDS Sensor VCC → 3.3V / 5V (depends on sensor module)
+
+TDS Sensor GND → GND
+
+3. ESP32 ↔ pH Sensor
+
+pH Sensor Analog Out → GPIO 35 (ADC pin)
+
+pH Sensor VCC → 3.3V / 5V
+
+pH Sensor GND → GND
+
+4. ESP32 ↔ Turbidity Sensor
+
+Turbidity Sensor Analog Out → GPIO 32 (ADC pin)
+
+Turbidity Sensor VCC → 5V
+
+Turbidity Sensor GND → GND
+
+5. ESP32 ↔ I2C LCD (20x4)
+
+LCD SDA → GPIO 21
+
+LCD SCL → GPIO 22
+
+LCD VCC → 5V
+
+LCD GND → GND
+
+6. ESP32 ↔ Push Button
+
+One side of Button → GPIO 25
+
+Other side of Button → GND
+
+Use INPUT_PULLUP in code (already included).
+
+📋 Summary Table
+Component	ESP32 Pin	Notes
+DS18B20 Data	GPIO 4	4.7kΩ pull-up to 3.3V
+TDS Sensor	GPIO 34	Analog input
+pH Sensor	GPIO 35	Analog input
+Turbidity Sensor	GPIO 32	Analog input
+LCD SDA	GPIO 21	I2C
+LCD SCL	GPIO 22	I2C
+Push Button	GPIO 25	INPUT_PULLUP
